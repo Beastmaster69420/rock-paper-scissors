@@ -61,4 +61,5 @@ startGameBtn.addEventListener('click', ()=>{
         message=`Your choice was ${playerChoice} and computer chose ${computerChoice} so you lost.`;
     }
     alert(message);
+    gameStarted=false;
 });
